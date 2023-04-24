@@ -160,6 +160,7 @@ function App() {
                 className="total bg-trasparent p-2 text-cyan text-right text-xl w-1/2"
                 type="text"
                 readOnly
+                value={`$${eval((bill * (tip / 100) / numPerson) * 5).toString()}`}
               />
             </div>
 
